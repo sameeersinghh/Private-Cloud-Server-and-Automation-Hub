@@ -1,7 +1,5 @@
 # ☁️ Private Cloud Server and Automation Hub
 
-# ☁️ Self-Hosted Enterprise Edge Server & IoT Telemetry Hub
-
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 ![Nextcloud](https://img.shields.io/badge/-Nextcloud-0082C9?style=for-the-badge&logo=Nextcloud&logoColor=white)
 ![Nginx](https://img.shields.io/badge/-NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
