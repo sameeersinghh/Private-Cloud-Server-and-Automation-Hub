@@ -71,20 +71,19 @@ The following implementation logs serve as concrete proof of the system's succes
 
 ### Verification 1: Web Gateway Initialization
 The Nginx daemon was successfully configured to listen on port 80 across the local sub-network, serving as the primary bridge between client hardware and the backend logic.
-> **Proof:** [Nginx Gateway Active](2026-06-07-190222_1364x768_scrot.png)
+> **Proof:** [Nginx Gateway Active](nginx-gateway-active.png)
 
 ### Verification 2: Raw Metal Storage Override
 Terminal logs verify the successful bypass of the Pi's internal storage. The `ls -l` command proves that telemetry data (`test_a_circadian.xlsx`) and code files are being written directly to the external `/mnt/clouddrive`. Permissions are strictly sandboxed to the `www-data` web server user.
-> **Proof:** [Terminal Storage Output](2026-06-07-222822_1364x768_scrot.jpg)
+> **Proof:** [Terminal Storage Output](terminal-storage-override.jpg)
 
 ### Verification 3: Wireless Cloud Syncing & GUI
 The Nextcloud graphical interface operating flawlessly via the `192.168.137.16` local IP. This allows seamless wireless drag-and-drop operations for heavy project files, matching the raw data queried in the terminal.
-> **Proof:** [Cloud Dashboard](Screenshot%202026-06-07%20202543.jpg) | [Internal File Sync](Screenshot%202026-06-07%20221548.png)
+> **Proof:** [Cloud Dashboard](nextcloud-dashboard.jpg) | [Internal File Sync](nextcloud-file-sync.png)
 
 ### Verification 4: Local Edge Logic Engine
 Node-RED successfully deployed and running on port `1880`. This serves as the visual logic "brain" for future automation tasks, allowing the server to process incoming hardware data arrays and trigger network responses.
-> **Proof:** [Node-RED Deployment](2026-06-07-183324_1364x768_scrot.png)
-
+> **Proof:** [Node-RED Deployment](node-red-deployment.png)
 ---
 
 ## 🚀 Strategic Future Integration
